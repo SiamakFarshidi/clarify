@@ -65,7 +65,7 @@ headers = {
 #-----------------------------------------------------------------------------------------------------------------------
 def openCrawlerConfig(webSiteEntity):
     #crawlerConfig = open(os.getcwd()+'/config/cherryPickInc-crawlerConfig.json',"r")
-    crawlerConfig = open(os.getcwd()+'/config/ENVRI-crawlerConfig.json',"r")
+    crawlerConfig = open(os.getcwd()+'/config/Clarify-crawlerConfig.json',"r")
     crawlerConfig = json.loads(r''+crawlerConfig.read())
     NewConfig={
         "permitted_urls_rules":crawlerConfig[webSiteEntity]['permitted_urls_rules'],
@@ -1290,5 +1290,5 @@ if __name__ == "__main__":
 
 #-----------------------------------------------------------------------------------------------------------------------
 
-    indexWebsite("webapiseacrh")
-    #enableTestModel("webapiseacrh", "https://www.programmableweb.com/api/clean-power-research-solar-simulations-rest-api-v20")
+    indexWebsite("icpsr.umich")
+    #enableTestModel("icpsr.umich", "https://www.icpsr.umich.edu/web/HMCA/studies/38376")

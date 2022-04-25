@@ -16273,7 +16273,7 @@
       }
     }
   },
-  "webapiseacrh": {
+  "programmableweb": {
     "seed": "https://www.programmableweb.com/category/environment",
     "permitted_urls_rules": [
       "-api-\\w+\\d+$"
@@ -16289,6 +16289,570 @@
       "url"
     ],
     "decision_model": "webapiseacrh",
+    "allArray": false,
+    "features": {
+      "name": {
+        "staticValue": null,
+        "htmlAllowed": false,
+        "cssClass": "node-header",
+        "tag": "div",
+        "extraction_patterns": [],
+        "removal_patterns": [],
+        "searchKeywords": {
+          "infix": {
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          },
+          "prefix": {
+            "index": 0,
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          },
+          "postfix": {
+            "index": 0,
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          }
+        },
+        "metadataFormat": "textual",
+        "expectedValues": {},
+        "datatype": "string",
+        "propertyValue": null
+      },
+      "description": {
+        "staticValue": null,
+        "htmlAllowed": false,
+        "cssClass": "api_description tabs-header_description",
+        "tag": "div",
+        "extraction_patterns": [],
+        "removal_patterns": [],
+        "searchKeywords": {
+          "infix": {
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          },
+          "prefix": {
+            "index": 0,
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          },
+          "postfix": {
+            "index": 0,
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          }
+        },
+        "metadataFormat": "textual",
+        "expectedValues": {},
+        "datatype": "string",
+        "propertyValue": null
+      },
+      "endpoint": {
+        "staticValue": null,
+        "htmlAllowed": false,
+        "cssClass": "",
+        "tag": "a",
+        "extraction_patterns": [],
+        "removal_patterns": [],
+        "searchKeywords": {
+          "infix": {
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          },
+          "prefix": {
+            "index": 2,
+            "tag": "label",
+            "cssClass": null,
+            "content": ["API Endpoint"],
+            "propertyValue": null
+          },
+          "postfix": {
+            "index": 0,
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          }
+        },
+        "metadataFormat": "textual",
+        "expectedValues": {},
+        "datatype": "url",
+        "propertyValue": "href"
+      },
+      "homePage": {
+        "staticValue": null,
+        "htmlAllowed": false,
+        "cssClass": "",
+        "tag": "a",
+        "extraction_patterns": [],
+        "removal_patterns": [],
+        "searchKeywords": {
+          "infix": {
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          },
+          "prefix": {
+            "index": 2,
+            "tag": "label",
+            "cssClass": null,
+            "content": ["API Portal / Home Page"],
+            "propertyValue": null
+          },
+          "postfix": {
+            "index": 0,
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          }
+        },
+        "metadataFormat": "textual",
+        "expectedValues": {},
+        "datatype": "url",
+        "propertyValue": "href"
+      },
+      "primaryCategory": {
+        "staticValue": null,
+        "htmlAllowed": false,
+        "cssClass": "",
+        "tag": "a",
+        "extraction_patterns": [],
+        "removal_patterns": [],
+        "searchKeywords": {
+          "infix": {
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          },
+          "prefix": {
+            "index": 2,
+            "tag": "label",
+            "cssClass": null,
+            "content": ["Primary Category"],
+            "propertyValue": null
+          },
+          "postfix": {
+            "index": 0,
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          }
+        },
+        "metadataFormat": "textual",
+        "expectedValues": {},
+        "datatype": "url",
+        "propertyValue": null
+      },
+      "secondaryCategories": {
+        "staticValue": null,
+        "htmlAllowed": false,
+        "cssClass": "field",
+        "tag": "div",
+        "extraction_patterns": [],
+        "removal_patterns": [" Secondary Categories "],
+        "searchKeywords": {
+          "infix": {
+            "tag": "label",
+            "cssClass": null,
+            "content": ["Secondary Categories"],
+            "propertyValue": null
+          },
+          "prefix": {
+            "index": 0,
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          },
+          "postfix": {
+            "index": 0,
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          }
+        },
+        "metadataFormat": "textual",
+        "expectedValues": {},
+        "datatype": "url",
+        "propertyValue": null
+      },
+      "provider": {
+        "staticValue": null,
+        "htmlAllowed": false,
+        "cssClass": "field",
+        "tag": "div",
+        "extraction_patterns": [],
+        "removal_patterns": [" API Provider "],
+        "searchKeywords": {
+          "infix": {
+            "tag": "label",
+            "cssClass": null,
+            "content": ["API Provider"],
+            "propertyValue": null
+          },
+          "prefix": {
+            "index": 0,
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          },
+          "postfix": {
+            "index": 0,
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          }
+        },
+        "metadataFormat": "textual",
+        "expectedValues": {},
+        "datatype": "url",
+        "propertyValue": null
+      },
+      "SSL_Support": {
+        "staticValue": null,
+        "htmlAllowed": false,
+        "cssClass": "field",
+        "tag": "div",
+        "extraction_patterns": [],
+        "removal_patterns": [" SSL Support "],
+        "searchKeywords": {
+          "infix": {
+            "tag": "label",
+            "cssClass": null,
+            "content": ["SSL Support"],
+            "propertyValue": null
+          },
+          "prefix": {
+            "index": 0,
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          },
+          "postfix": {
+            "index": 0,
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          }
+        },
+        "metadataFormat": "textual",
+        "expectedValues": {},
+        "datatype": "url",
+        "propertyValue": null
+      },
+      "authentication_Model":  {
+        "staticValue": null,
+        "htmlAllowed": false,
+        "cssClass": "field",
+        "tag": "div",
+        "extraction_patterns": [],
+        "removal_patterns": [" Authentication Model "],
+        "searchKeywords": {
+          "infix": {
+            "tag": "label",
+            "cssClass": null,
+            "content": ["Authentication Model"],
+            "propertyValue": null
+          },
+          "prefix": {
+            "index": 0,
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          },
+          "postfix": {
+            "index": 0,
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          }
+        },
+        "metadataFormat": "textual",
+        "expectedValues": {},
+        "datatype": "url",
+        "propertyValue": null
+      },
+      "version":  {
+        "staticValue": null,
+        "htmlAllowed": false,
+        "cssClass": "field",
+        "tag": "div",
+        "extraction_patterns": [],
+        "removal_patterns": [" Version "],
+        "searchKeywords": {
+          "infix": {
+            "tag": "label",
+            "cssClass": null,
+            "content": ["Version"],
+            "propertyValue": null
+          },
+          "prefix": {
+            "index": 0,
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          },
+          "postfix": {
+            "index": 0,
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          }
+        },
+        "metadataFormat": "textual",
+        "expectedValues": {},
+        "datatype": "url",
+        "propertyValue": null
+      },
+      "versionStatus": {
+        "staticValue": null,
+        "htmlAllowed": false,
+        "cssClass": "field",
+        "tag": "div",
+        "extraction_patterns": [],
+        "removal_patterns": [" Version status "],
+        "searchKeywords": {
+          "infix": {
+            "tag": "label",
+            "cssClass": null,
+            "content": ["Version status"],
+            "propertyValue": null
+          },
+          "prefix": {
+            "index": 0,
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          },
+          "postfix": {
+            "index": 0,
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          }
+        },
+        "metadataFormat": "textual",
+        "expectedValues": {},
+        "datatype": "url",
+        "propertyValue": null
+      },
+      "type": {
+        "staticValue": null,
+        "htmlAllowed": false,
+        "cssClass": "field",
+        "tag": "div",
+        "extraction_patterns": [],
+        "removal_patterns": [" Type "],
+        "searchKeywords": {
+          "infix": {
+            "tag": "label",
+            "cssClass": null,
+            "content": ["Type"],
+            "propertyValue": null
+          },
+          "prefix": {
+            "index": 0,
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          },
+          "postfix": {
+            "index": 0,
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          }
+        },
+        "metadataFormat": "textual",
+        "expectedValues": {},
+        "datatype": "url",
+        "propertyValue": null
+      },
+      "architecturalStyle":{
+        "staticValue": null,
+        "htmlAllowed": false,
+        "cssClass": "field",
+        "tag": "div",
+        "extraction_patterns": [],
+        "removal_patterns": [" Architectural Style "],
+        "searchKeywords": {
+          "infix": {
+            "tag": "label",
+            "cssClass": null,
+            "content": ["Architectural Style"],
+            "propertyValue": null
+          },
+          "prefix": {
+            "index": 0,
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          },
+          "postfix": {
+            "index": 0,
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          }
+        },
+        "metadataFormat": "textual",
+        "expectedValues": {},
+        "datatype": "url",
+        "propertyValue": null
+      },
+      "supportedRequestFormats": {
+        "staticValue": null,
+        "htmlAllowed": false,
+        "cssClass": "field",
+        "tag": "div",
+        "extraction_patterns": [],
+        "removal_patterns": [" Supported Request Formats "],
+        "searchKeywords": {
+          "infix": {
+            "tag": "label",
+            "cssClass": null,
+            "content": ["Supported Request Formats"],
+            "propertyValue": null
+          },
+          "prefix": {
+            "index": 0,
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          },
+          "postfix": {
+            "index": 0,
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          }
+        },
+        "metadataFormat": "textual",
+        "expectedValues": {},
+        "datatype": "url",
+        "propertyValue": null
+      },
+      "supportedResponseFormats": {
+        "staticValue": null,
+        "htmlAllowed": false,
+        "cssClass": "field",
+        "tag": "div",
+        "extraction_patterns": [],
+        "removal_patterns": [" Supported Response Formats "],
+        "searchKeywords": {
+          "infix": {
+            "tag": "label",
+            "cssClass": null,
+            "content": ["Supported Response Formats"],
+            "propertyValue": null
+          },
+          "prefix": {
+            "index": 0,
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          },
+          "postfix": {
+            "index": 0,
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          }
+        },
+        "metadataFormat": "textual",
+        "expectedValues": {},
+        "datatype": "url",
+        "propertyValue": null
+      },
+      "restrictedAccess": {
+        "staticValue": null,
+        "htmlAllowed": false,
+        "cssClass": "field",
+        "tag": "div",
+        "extraction_patterns": [],
+        "removal_patterns": [" Restricted Access ( Requires Provider Approval ) "],
+        "searchKeywords": {
+          "infix": {
+            "tag": "label",
+            "cssClass": null,
+            "content": ["Restricted Access ( Requires Provider Approval )"],
+            "propertyValue": null
+          },
+          "prefix": {
+            "index": 0,
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          },
+          "postfix": {
+            "index": 0,
+            "tag": null,
+            "cssClass": null,
+            "content": [],
+            "propertyValue": null
+          }
+        },
+        "metadataFormat": "textual",
+        "expectedValues": {},
+        "datatype": "url",
+        "propertyValue": null
+      }
+    }
+  },
+  "webapiseacrh": {
+    "seed": "https://www.programmableweb.com/category/environment",
+    "permitted_urls_rules": [
+      "-api-\\w+\\d+$"
+    ],
+    "denied_urls_rules": [],
+    "csv_fields": [],
+    "render_html": true,
+    "keep_parameters": false,
+    "keep_parameters_for_indexing": false,
+    "page_counter": [],
+    "start_page_counter_from": 1,
+    "equal_crawled_features": [
+      "url"
+    ],
+    "decision_model": "webapiseacrhtest",
     "allArray": false,
     "features": {
       "name": {

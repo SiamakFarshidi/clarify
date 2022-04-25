@@ -17,13 +17,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/dataset_elastic/indexingPipeline/index files/Run 15/logfile.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
       </map>
     </option>
   </component>

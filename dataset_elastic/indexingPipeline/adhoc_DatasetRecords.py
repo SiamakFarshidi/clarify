@@ -1532,12 +1532,12 @@ def if_URL_exist(url):
 #invertedIndexing("SeaDataNet_EDMED_")
 #invertedIndexing("ICOS_")
 #--------------------
-deleteAllIndexFilesByExtension(".json")
-deleteAllIndexFilesByExtension(".csv")
+#deleteAllIndexFilesByExtension(".json")
+#deleteAllIndexFilesByExtension(".csv")
 #--------------------
-#Run_indexingPipeline_SeaDataNet_CDI()
+Run_indexingPipeline_SeaDataNet_CDI()
 #Run_indexingPipeline_SeaDataNet_EDMED()
-Run_indexingPipeline_ICOS()
+#Run_indexingPipeline_ICOS()
 
 #--------------------
 #datasetProcessing_ICOS("https://meta.icos-cp.eu/objects/0ST81nXCND5VfAQdOCSJDveT")

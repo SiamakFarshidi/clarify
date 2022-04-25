@@ -450,6 +450,8 @@
                                                                 {% endif %}
 
                                                             </a>
+                                                                <a href="#"><img src="{% static 'images/JPlogo.png' %}" style="width:22px; right:20px;position: absolute;margin-right:30px;" /> </a>
+
                                                                 <a href="#" onclick="modifyBasket('add','Datasets',&quot;{%for name in resultItem.name %}{% if name != resultItem.ResearchInfrastructure.0 %}{{ name }} .{% endif %}{% endfor %}&quot;, &quot;{% if 'json' in resultItem.url.0 %} {{ resultItem.url.0|slice:':-4' }}{% else %}{{ resultItem.url.0 }}{% endif %}&quot;, 'id');">
                                                                     <img src="{% static 'images/addToBasket.png' %}" style="width:25px; right:0px;position: absolute;margin-right:20px;" /> </a>
 

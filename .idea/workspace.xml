@@ -5,10 +5,1001 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b881a72b-d0b5-4437-92c8-8d48f6655ffe" name="Changes" comment="okay">
+      <change afterPath="$PROJECT_DIR$/DSS/config/Clarify-crawlerConfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSS/index_files/dataset2.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSS/index_files/dataset3.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSS/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Untitled.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset_elastic/indexingPipeline/Metadata records/SeaDataNet-CDI-metadata-records.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset_elastic/indexingPipeline/index files/Run 15/SeaDataNet_CDI_51fafd29-99c8-45fd-b221-3e2a26d09e0a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset_elastic/indexingPipeline/index files/Run 15/SeaDataNet_CDI_e0729313-8f48-4344-9c54-4ad6cdb6eb19.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset_elastic/indexingPipeline/json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset_elastic/indexingPipeline/os" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset_elastic/indexingPipeline/requests" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset_elastic/indexingPipeline/subprocess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/indexGen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/3d convolutional neural network w o programming __9613.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/3d mri brain tumor segmentation u net __4862.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/4 th place solution inference and training tips __6603.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/a complete ml pipeline fast ai e37094 __21068.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/aoe project __13939.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/atividade 221119 __618.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/atvdanilo25 11 __618.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/bank marketing campaigns dataset analysis __9054.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/bengali graphemes starter eda multi output cnn __702.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/biological sequence operations __39968.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/birdclef2021 exploring the data __11910.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/bivariate plotting with pandas __8166.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/breast cancer diagnosis with f1 score 99 __9869.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/breast cancer prediction 99 __3103.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/build alexnet to classifies pneumonia __2083.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/build your first cnn using keras 99 __2864.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/categorical variables in decision trees __1310.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/covid 19 detection pytorch tutorial __14399.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/covid detection studies with multiple images viz __12335.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/covid19 challanges __1037.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/cutmix in python __3273.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/data visualization and analysis __3238.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/densenet169 with wsi split and focalloss __2380.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/detectron 2 2nd attempt __14106.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/e commerce customer segmentation __17297.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/eda security master analysis __9456.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/effective feature engineering __7253.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/fast mtcnn detector 55 fps at full resolution __2265.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/feature extraction colon images mobilenetv2 __13.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/feature extraction lung images mobilenet __11.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/featuretools feature engineering is it worth it __999.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/fine tuning bert text classification __10124.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/getting started with halite __8241.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/heart desease ml classificationexercises __12098.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/hepatitis using svm __4665.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/hepatitisdataeda __34802.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/histology with cnn __5651.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/how to become a property tycoon in new york __8495.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/how to use __1311.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/hpa cellwise classification inference __6386.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/hubmap efficientnet and linknet train __1860.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/i shopee text prep fe image augmentation __6950.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/inceptionresnetv2 all 5 classes at once __831.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/industrial safety complete solution __36328.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/introduction to cnn keras 0 997 top 6 __10898.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/introduction to decision trees titanic dataset __14834.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/kannada mnist cnn tutorial with app top 2 __23915.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/keras model for beginners 0 210 on lb eda r d __4022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/kernelbecbda8662 __6152.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/live long __6908.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/lung cnn 2 layer __29.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/mask rcnn sample starter code __5139.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/ml from scratch part 2 __5717.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/modeling energy efficiency residential building __13126.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/multi label segmentation using fastai __1897.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/multiclass classification wine quality beginner __2918.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/named entity recognition with lstms __686.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/online retail superstore cohort and rfm analysis __86127.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/osic data preprocessing for cnn ml starter __4394.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/principal component analysis pca complete guide __5969.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/prostate cancer grading intro starter kernel __18911.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/pytanic __59288.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/qa integrated biomedical ner classifier for pico __8466.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/random forest k fold cross validation __1543.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/sartorius indepth eda explanation model __19182.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/simple eda geo data time series __6418.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/skin lesion analyzer __5397.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/social network link prediction __2261.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/stage1 eda microscope image types clustering __1156.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/stain normalization __1354.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/suspended substances prediction in river __14827.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/synthesisdefensivebehavior __7322.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebookSearch/Clarify/index_files/tutorial on machine learning metrics __89267.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/changelists.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/forms.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/nav_sidebar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/responsive_rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/vendor/select2/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/vendor/select2/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/widgets.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/fonts/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/fonts/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/fonts/Roboto-Bold-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/fonts/Roboto-Light-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/fonts/Roboto-Regular-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/calendar-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/gis/move_vertex_off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/gis/move_vertex_on.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-addlink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-alert.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-changelink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-clock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-deletelink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-no.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-unknown-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-unknown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-viewlink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-yes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/inline-delete.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/selector-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/sorting-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/tooltag-add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/tooltag-arrowright.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/SelectBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/SelectFilter2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/actions.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/autocomplete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/cancel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/change_form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/collapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/collapse.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/inlines.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/inlines.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/jquery.init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/nav_sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/popup_response.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/prepopulate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/prepopulate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/prepopulate_init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/timeparse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/urlify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/jquery/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/bn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/bs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/dsb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/hsb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/hy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ne.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sr-Cyrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/tk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/select2.full.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/select2.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/xregexp/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/xregexp/xregexp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/animate.css/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/chartist/chartist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/ionicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/jquery.mCustomScrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/morris.js/css/morris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/_dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/_general.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/_generic.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/menu/_pcmenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/menu/pccoded-horizontal-menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/menu/pccoded-horizontal-menu.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/menu/pccoded-horizontal-menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/other/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/other/_authentication.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/other/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/other/_charts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/other/_chat.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/other/_color.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/other/_draggable.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/other/_e-payment.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/other/_editors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/other/_fb-wall.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/other/_full-calender.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/other/_job-find.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/other/_mail-pages.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/other/_maps.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/other/_navbars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/other/_note.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/other/_pre-loader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/other/_prism.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/other/_progress-bar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/other/_range-slider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/other/_rating.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/responsive/_responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/tables/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/theme-elements/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/theme-elements/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/theme-elements/_form-elements.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/theme-elements/_icon-layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/theme-elements/_label-badges.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/theme-elements/_ready-to-use.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/todo/_todo.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/widget-dashboard/_dashboard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/partials/widget-dashboard/_widget.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/pcoded-horizontal.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/pcoded-horizontal.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/cytoscape-panzoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/cytoscape.cjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/cytoscape.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/cytoscape.js-panzoom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/cytoscape.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/cytoscape.umd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/less/spinning.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/scss/_spinning.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font-awesome-4.0.3/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/css/foundation-float.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/css/foundation-float.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/css/foundation-prototype.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/css/foundation-prototype.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/css/foundation-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/css/foundation-rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/css/foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/css/foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/foundation.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/foundation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.abide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.abide.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.accordion.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.accordionMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.accordionMenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.core.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.drilldown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.drilldown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.dropdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.dropdownMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.dropdownMenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.equalizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.equalizer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.interchange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.interchange.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.magellan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.magellan.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.offcanvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.offcanvas.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.orbit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.orbit.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.responsiveAccordionTabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.responsiveAccordionTabs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.responsiveMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.responsiveMenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.responsiveToggle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.responsiveToggle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.reveal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.reveal.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.slider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.smoothScroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.smoothScroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.sticky.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.sticky.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.tabs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.toggler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.toggler.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.tooltip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.util.box.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.util.box.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.util.imageLoader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.util.imageLoader.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.util.keyboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.util.keyboard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.util.mediaQuery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.util.mediaQuery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.util.motion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.util.motion.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.util.nest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.util.nest.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.util.timer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.util.timer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.util.timerAndImageLoader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.util.timerAndImageLoader.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.util.touch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.util.touch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.util.triggers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.util.triggers.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.zf.responsiveAccordionTabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/foundation/js/plugins/foundation.zf.responsiveAccordionTabs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/graphVisualization/vis-data.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/graphVisualization/vis-network.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/graphVisualization/vis-network.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/SVG-animated/svg-weather.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/scss/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/scss/font-awesome.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/icofont/css/icofont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/icofont/fonts/icofont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/icofont/fonts/icofont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/icofont/fonts/icofont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/icofont/fonts/icofont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/themify-icons/fonts/themify.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/themify-icons/fonts/themify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/themify-icons/fonts/themify.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/themify-icons/fonts/themify.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/icon/themify-icons/themify-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images-old/auth/Logo-small-bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images-old/auth/logo-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images-old/auth/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images-old/avatar-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images-old/avatar-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images-old/avatar-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images-old/avatar-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images-old/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images-old/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images-old/flags/ENGLISH.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images-old/flags/FRANCE.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images-old/flags/PORTO.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images-old/flags/SPAIN.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images-old/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images-old/mega-menu/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images-old/mega-menu/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images-old/mega-menu/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images-old/mega-menu/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images-old/mega-menu/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images-old/mega-menu/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images-old/pattern2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images-old/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/48px-Gnome-accessories-text-editor.svg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/48px-Gnome-video-x-generic.svg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/AQUACOSM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/AdobePDF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/Gnome-Camera-Photo-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/Gnome-Camera-Photo-48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/Gnome-Camera-Photo-64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/Gnome-Camera-Video-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/Gnome-Camera-Video-48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/Gnome-Camera-Video-64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/Gnome-go-next.svg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/Gnome-go-previous.svg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/LiNa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/MSPowerPoint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/MSWord.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/MSWord.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/AQUACOSM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/AQUACOSM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/CETAF.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/DANUBIUS-RI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/DISSCO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/Dissco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/EISCAT3D.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/ELIXIR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/EMBRC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/EMPHASIS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/EMSOERIC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/EPOS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/ESONET.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/EUDAT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/EUFAR.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/EUROCHAMP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/EuroGOOS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/Eurofleets.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/HEMERA.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/Hemera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/IAGOSERI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/ICOS.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/ICOS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/INTERACT.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/ISENES.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/JERICO.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/LTER.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/LifeWatchERIC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/SeaDataNet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/actris.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/anaee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/arise.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/elterRI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/euroArgo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/fixo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/icedig-eu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs-graph/sios.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/AQUACOSM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/AQUACOSM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/CETAF.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/DANUBIUS-RI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/DISSCO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/Dissco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/EISCAT3D.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/EISCAT3dasso.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/ELIXIR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/EMBRC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/EMPHASIS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/EMSOERIC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/EPOS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/ESONET.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/EUDAT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/EUFAR.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/EUROCHAMP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/EuroGOOS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/Eurofleets.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/HEMERA.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/Hemera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/IAGOSERI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/ICOS.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/INTERACT.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/ISENES.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/JERICO.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/KB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/LTER.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/LifeWatchERIC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/SeaDataNet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/actris.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/anaee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/arise.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/elterRI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/euroArgo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/fixo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/icedig-eu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/RIs/sios.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/Siamak.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/WWW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/Xiaofeng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/Zhiming.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/arrow-left.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/arrow-right.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/envri_logo_final.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/envri_logo_final_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/find.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/icon-envri.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/maxim.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/path.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/sub.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-Collection/university-of-amster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-WHITE-LOGO copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-WHITE-LOGO---.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-WHITE-LOGO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ENVRI-WHITE-LOGO_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/GuestICON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/JPNk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/Jommans-Emluator-Pictures.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/VRE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/WebAPIsLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/WebPageICON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/addToBasket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/api.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/attachedfilesicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/attachments.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/auth/Logo-small-bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/auth/logo-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/auth/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/avatar-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/avatar-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/avatar-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/avatar-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/blog/blog-r-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/blog/blog-r-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/blog/blog-r-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/csvicnon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/dataset.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/datasetCollectionlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/datasetlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/docfileicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/envri_logo_final.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/file-icon-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/flags/ENGLISH.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/flags/FRANCE.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/flags/PORTO.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/flags/SPAIN.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/imageicon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/imageicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/jsonincon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/knowledge_base_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/landinglogo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/pattern1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/pattern2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/pattern3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/pattern4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/pattern5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/pattern6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/pattern7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/pattern8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/pattern9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/pdficon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ppticon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product/prod1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product/prod2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product/prod3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product/prod4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/select-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/serviceCatalogs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/servicecatalogs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/slider-full (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/slider-full (4).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ssl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ssl-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ssl.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/ssllogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/team/Na.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/team/Siamak.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/team/Xiaofeng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/team/Yuxue.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/team/Zhiming.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/team/maxim.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/userlogin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/webapilogo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/webpageslogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/websitelogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/widget/Group-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/widget/icon-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/widget/icon-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/widget/icon-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/widget/icon-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/widget/map-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/widget/mountain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/widget/prod.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/widget/prod1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/widget/prod2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/widget/prod3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/widget/prod4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/widget/profile-person1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/widget/proticketbg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/widget/seoimg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/widget/seoimg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/widget/seoimg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/widget/sparcle-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/widget/sparcle-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/widget/user-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/widget/user-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/widget/user-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/widget/user-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/widget/user-blur-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/widget/user1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/widget/user2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/widget/user3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/widget/user4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/xlsxicnon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/xmlicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/zipicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/import_export/action_formats.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/import_export/import.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/SmoothScroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/bootstrap-growl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/chart.js/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/common-pages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/foundation/foundation.abide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/foundation/foundation.accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/foundation/foundation.alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/foundation/foundation.clearing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/foundation/foundation.dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/foundation/foundation.equalizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/foundation/foundation.interchange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/foundation/foundation.joyride.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/foundation/foundation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/foundation/foundation.magellan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/foundation/foundation.offcanvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/foundation/foundation.orbit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/foundation/foundation.reveal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/foundation/foundation.slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/foundation/foundation.tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/foundation/foundation.tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/foundation/foundation.topbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery-slimscroll/jquery.slimscroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery-ui/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.mCustomScrollbar.concat.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.mousewheel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/modernizr/css-scrollbars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/modernizr/modernizr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/morris.js/morris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/pcoded.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/popper.js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/raphael/raphael.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/script.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/vartical-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/vendor/fastclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/vendor/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/vendor/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/vendor/modernizr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/vendor/placeholder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/notification/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/notification/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/notification/cute-alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/notification/error.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/notification/img/error.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/notification/img/info.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/notification/img/question.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/notification/img/success.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/notification/img/warning.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/notification/info.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/notification/question.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/notification/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/notification/success.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/notification/warning.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/accordion/accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/accordion/accordion.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/chart/c3/c3-custom-chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/chart/chartjs/chartjs-custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/chart/chartlist/chartlist-custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/chart/chartlist/js/chartist-plugin-threshold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/chart/chartlist/js/chartist-plugin-tooltip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/chart/echarts/echart-custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/chart/echarts/js/echarts-all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/chart/float/float-chart-custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/chart/float/jquery.flot.categories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/chart/float/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/chart/float/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/chart/google/js/custom-google-chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/chart/knob/jquery.knob.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/chart/knob/knob-custom-chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/chart/morris/morris-custom-chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/chart/nv-chart/js/stream_layers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/chart/nvd3/chart-nvd3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/chart/peity/peity-custom-chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/chart/radial/css/radial.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/chart/rickshow/d3.layout.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/chart/rickshow/rickshow-custom-.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/chart/sparkline/chart-sparkline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/dashboard/amchart/css/amchart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/dashboard/amchart/css/export.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/dashboard/amchart/js/amcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/dashboard/amchart/js/custom-amchart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/dashboard/amchart/js/export.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/dashboard/amchart/js/images/dragIconRoundBig.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/dashboard/amchart/js/images/dragIconRoundBigH.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/dashboard/amchart/js/light.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/dashboard/amchart/js/serial.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/dashboard/analytic-dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/dashboard/analytic-dashboard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/dashboard/crm-dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/dashboard/custom-dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/dashboard/custom-dashboard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/dashboard/custom-dashboard1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/dashboard/d3chart/js/bullet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/dashboard/d3chart/js/bullets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/dashboard/d3chart/js/d3.v3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/dashboard/ecommerce-dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/dashboard/high-chart/js/high-chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/dashboard/horizontal-timeline/css/cd-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/dashboard/horizontal-timeline/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/dashboard/horizontal-timeline/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/dashboard/horizontal-timeline/js/jquery.mobile.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/dashboard/horizontal-timeline/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/dashboard/project-dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/dashboard/project-dashboard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/flag-icons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/form-validation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/google-maps/gmaps.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/google-maps/jquery.gmaps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/icon-modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/notification/notification.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/notification/notification.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/range-slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/sortable-custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/todo/todo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/user-profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/vector-maps/css/jquery-jvectormap-2.0.2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/vector-maps/css/jquery-jvectormap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/vector-maps/js/gdp-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/vector-maps/js/jquery-jvectormap-2.0.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/vector-maps/js/jquery-jvectormap-2.0.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/vector-maps/js/jquery-jvectormap-asia-mill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/vector-maps/js/jquery-jvectormap-au-mill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/vector-maps/js/jquery-jvectormap-ca-lcc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/vector-maps/js/jquery-jvectormap-de-mill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/vector-maps/js/jquery-jvectormap-in-mill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/vector-maps/js/jquery-jvectormap-uk-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/vector-maps/js/jquery-jvectormap-us-aea-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/vector-maps/js/jquery-jvectormap-us-il-chicago-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/vector-maps/js/jquery-jvectormap-world-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/vector-maps/js/map-vector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/amchart/amcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/amchart/amcharts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/amchart/ammap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/amchart/ammap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/amchart/continentsLow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/amchart/continentsLow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/amchart/gauge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/amchart/gauge.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/amchart/light.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/amchart/light.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/amchart/pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/amchart/pie.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/amchart/serial.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/amchart/serial.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/amchart/worldLow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/amchart/worldLow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/calender/pignose.calendar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/calender/pignose.calendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/custom-widget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/custom-widget1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/custom-widget1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/custom-widget2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/excanvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/flipclock/flipclock.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/flipclock/flipclock.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/gauge/gauge.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/jquery.sparkline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/pretty-calender/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/pretty-calender/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/timer/TimeCircles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/timer/jquery.countdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/timer/waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/waterball/createWaterBall-jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/widget-advanced.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/pages/widget/widget-advanced.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/css/bootstrap-tweaks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/css/font-awesome-4.0.3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/css/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/docs/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/docs/css/highlight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/docs/css/jquery.json-view.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/docs/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/docs/img/grid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/docs/js/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/docs/js/highlight.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/docs/js/jquery.json-view.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/img/glyphicons-halflings-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/img/glyphicons-halflings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/img/grid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/js/ajax-form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/js/coreapi-0.1.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/js/csrf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/js/default.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/js/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/js/prettify-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/partials/_dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/partials/_general.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/partials/_generic.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/partials/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/partials/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/partials/menu/_pcmenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/partials/menu/pccoded-horizontal-menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/partials/menu/pccoded-horizontal-menu.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/partials/menu/pccoded-horizontal-menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/partials/other/_authentication.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/partials/other/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/partials/other/_charts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/partials/other/_color.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/partials/other/_maps.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/partials/other/_navbars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/partials/other/_progress-bar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/partials/responsive/_responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/partials/tables/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/partials/theme-elements/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/partials/theme-elements/_form-elements.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/partials/theme-elements/_icon-layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/partials/theme-elements/_label-badges.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/partials/todo/_todo.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/partials/widget-dashboard/_widget.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/splashScreen/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/splashScreen/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/splashScreen/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/splashScreen/particles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/splashScreen/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/gh-images/starability-accessibility-outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/gh-images/starability-focus-ring.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/gh-images/starability-showcase.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-css/starability-all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-css/starability-basic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-css/starability-checkmark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-css/starability-coinFlip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-css/starability-fade.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-css/starability-grow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-css/starability-growRotate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-css/starability-heart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-css/starability-heartbeat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-css/starability-rotate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-css/starability-slot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-minified/starability-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-minified/starability-basic.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-minified/starability-checkmark.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-minified/starability-coinFlip.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-minified/starability-fade.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-minified/starability-grow.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-minified/starability-growRotate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-minified/starability-heart.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-minified/starability-heartbeat.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-minified/starability-rotate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-minified/starability-slot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-scss/_starability-base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-scss/_starability-result.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-scss/starability/all.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-scss/starability/basic.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-scss/starability/checkmark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-scss/starability/coinFlip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-scss/starability/fade.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-scss/starability/grow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-scss/starability/growRotate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-scss/starability/heart.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-scss/starability/heartbeat.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/starRating/starability-scss/starability/slot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/stdlib.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/tablesaw/icons/grunticon.loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/tablesaw/icons/icons.data.png.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/tablesaw/icons/icons.data.svg.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/tablesaw/icons/icons.fallback.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/tablesaw/icons/png/arrow-gray-down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/tablesaw/icons/png/arrow-gray-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/tablesaw/icons/png/arrow-gray-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/tablesaw/icons/png/check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/tablesaw/icons/png/sort-ascending.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/tablesaw/icons/png/sort-descending.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/tablesaw/icons/preview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/tablesaw/tablesaw.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/tablesaw/tablesaw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/tablesaw/tablesaw.stackonly.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/tablesaw/tablesaw.stackonly.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/tablesaw/tablesaw.stackonly.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DSS/adhocCrawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/DSS/adhocCrawler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSS/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/DSS/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webSearch/indexingPipeline/adhoc_crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/webSearch/indexingPipeline/adhoc_crawler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSS/config/ENVRI-crawlerConfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/DSS/config/ENVRI-crawlerConfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSS/testScripts.py" beforeDir="false" afterPath="$PROJECT_DIR$/DSS/testScripts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset_elastic/indexingPipeline/adhoc_DatasetRecords.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset_elastic/indexingPipeline/adhoc_DatasetRecords.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset_elastic/indexingPipeline/index files/Run 15/ICOS_3be67488-ab64-43c7-ba78-6ab9022ec912.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset_elastic/indexingPipeline/index files/Run 15/logfile.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset_elastic/templates/dataset_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/dataset_elastic/templates/dataset_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webAPI/DB/webapiseacrh.zip" beforeDir="false" afterPath="$PROJECT_DIR$/webAPI/DB/webapiseacrh.zip" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,63 +1033,73 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/servicCatalogSearch/templates/servicecatalogs_results.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DSS/config/world-cities_json.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/notebookSearch/views.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/dataset_elastic/indexingPipeline/DatasetRecords.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/webAPI/templates/webapi_results.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/toolSearch/templates/tools_results.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/servicCatalogSearch/urls.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/dataset_elastic/indexingPipeline/adhoc_DatasetRecords.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/notebookSearch/adhoc_indexingPipeline.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DSS/adhocCrawler.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DSS/urls.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/opensemanticsearch/urls.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/webSearch/templates/webcontent_results.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DSS/admin.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/genericpages/views.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DSS/views.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/opensemanticsearch/settings.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/dataset_elastic/templates/dataset_results.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/webSearch/indexingPipeline/ResearchInfrastructures.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DSS/temp.txt" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/webSearch/urls.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/servicCatalogSearch/views.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DSS/config/ENVRI-crawlerConfig.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/genericpages/templates/landingpage.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DSS/config/decisionModels.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/toolSearch/urls.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/webSearch/views.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Urls.txt" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/dataset_elastic/views.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/webAPI/views.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/dataset_elastic/indexingPipeline/Metadata*/metadata*.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/servicCatalogSearch/views.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/webAPI/templates/webapi_results.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/toolSearch/urls.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/toolSearch/views.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/genericpages/templates/landingpage.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/servicCatalogSearch/templates/servicecatalogs_results.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/dataset_elastic/indexingPipeline/DatasetRecords.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/notebookSearch/adhoc_indexingPipeline.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSS/config/decisionModels.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/toolSearch/templates/tools_results.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSS/config/world-cities_json.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Urls.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSS/config/ENVRI-crawlerConfig.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/webSearch/urls.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/webSearch/views.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/notebookSearch/views.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/dataset_elastic/indexingPipeline/Metadata*/metadata*.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSS/temp.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/webSearch/templates/webcontent_results.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/opensemanticsearch/settings.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSS/adhocCrawler.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/DSS/admin.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/dataset_elastic/views.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///usr/local/lib/python3.9/dist-packages/elasticsearch/connection/base.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/dataset_elastic/templates/dataset_results.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSS/urls.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSS/views.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/opensemanticsearch/urls.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/dataset_elastic/indexingPipeline/adhoc_DatasetRecords.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSS/config/Clarify-crawlerConfig.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/webSearch/indexingPipeline/adhoc_crawler.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/webSearch/indexingPipeline/ResearchInfrastructures.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/genericpages/views.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="22Oo3MbnQPPDeLNIiEaYae7gxyo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/webAPI/DB" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="exceleditor.install" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/notebookSearch/Clarify" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="RainbowCSV.Settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/notebookSearch/Clarify" />
+      <recent name="$PROJECT_DIR$/DSS/config" />
       <recent name="$PROJECT_DIR$/webAPI/DB" />
       <recent name="$PROJECT_DIR$/webAPI" />
-      <recent name="$PROJECT_DIR$/DSS/config" />
       <recent name="$PROJECT_DIR$/DSS" />
-      <recent name="$PROJECT_DIR$/DSS/index_files/tools" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/DSS" />
@@ -107,6 +1108,55 @@
       <recent name="$PROJECT_DIR$/ChromeDriver" />
       <recent name="$PROJECT_DIR$/static/notification" />
     </key>
+  </component>
+  <component name="RunManager" selected="Python.indexGen">
+    <configuration name="Python3" type="PythonConfigurationType" factoryName="Python">
+      <module name="opensemanticsearch" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.9" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="indexGen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="opensemanticsearch" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/notebookSearch/Clarify" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/notebookSearch/Clarify/indexGen.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.indexGen" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -475,6 +1525,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
